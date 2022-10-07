@@ -1,0 +1,15 @@
+.avatar_wrapper {
+  list-style: none;
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  .username {
+    font-size: 16px;
+    color: #000000a4;
+    text-decoration: underline;
+  }
+}

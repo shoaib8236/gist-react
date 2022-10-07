@@ -1,0 +1,37 @@
+.gist_details_wrapper {
+  padding: 20px;
+
+  p {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+
+  .text_danger {
+    color: #d9363e;
+  }
+
+  .detail_box {
+    border: 1px solid #dddddd;
+    padding: 20px;
+
+    .gist_desc {
+      font-size: 18px;
+    }
+
+    .detail_box_title {
+      font-size: 18px;
+      color: $primary;
+    }
+
+    .gist_files {
+      list-style: none;
+      margin-bottom: 5px;
+
+      a {
+        font-size: 16px;
+        color: #000000a4;
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.users_layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .scrolle_container {
+    flex-grow: 1;
+    overflow-y: auto;
+
+    .gist_loading_wraper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+    }
+
+    .gist_result {
+      padding: 20px;
+    }
+
+    .gists_empty_wrapper {
+      padding: 20px 0;
+      min-height: 200px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.search_container {
+  padding: 20px;
+  background-color: $primary;
+  .search_input {
+    background-color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    color: #000000;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    box-shadow: 0 0 10px #d4d4d4;
+    transition: 0.2s;
+
+    &.disbled_style {
+      opacity: 0.8;
+    }
+
+    &::placeholder {
+      color: #000000a6;
+      font-weight: 600;
+    }
+  }
+}

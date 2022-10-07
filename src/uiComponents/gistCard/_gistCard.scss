@@ -1,0 +1,24 @@
+.user_card_wrapper {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+
+  &:hover {
+    > p {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    &:first-child {
+      font-size: 16px;
+    }
+    &:nth-child(2) {
+      font-size: 18px;
+      color: #000000a6;
+    }
+  }
+}
